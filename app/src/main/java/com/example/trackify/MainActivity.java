@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnStart, btnPause, btnResume, btnStop;
     MapView map;
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
