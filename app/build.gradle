@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.trackify'
+    namespace 'com.example.steptracker'
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.trackify"
+        applicationId "com.example.steptracker"
         minSdk 23
         targetSdk 36
         versionCode 1

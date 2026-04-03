@@ -1,4 +1,4 @@
-package com.example.trackify;
+package com.example.steptracker;
 
 import android.os.Bundle;
 import android.view.View;
@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
     Button btnStart, btnPause, btnResume, btnStop;
     MapView map;
 
-    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

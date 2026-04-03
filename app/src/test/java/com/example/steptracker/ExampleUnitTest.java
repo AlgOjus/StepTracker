@@ -1,4 +1,4 @@
-package com.example.trackify;
+package com.example.steptracker;
 
 import org.junit.Test;
 
