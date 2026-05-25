@@ -7,13 +7,19 @@
     <!-- LOCATION -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission
+        android:name="android.permission.ACTIVITY_RECOGNITION"/>
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.StepTracker">
-
+        <service
+            android:name="com.example.steptracker.TrackingService"
+            android:foregroundServiceType="location"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
